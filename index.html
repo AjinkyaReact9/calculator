@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="flex-parent">
+        <table id="calcu">
+            <tr>
+                <td colspan="4">
+                    <input type="text" class="equation"><br>
+                    <input type="text" class="inputBox" id="result">
+                </td>
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value="Clr" onclick="clr()"></td>
+                <td><input class="btn" type="button" value="His" onclick='his()' readonly></td>
+                <td><input class="btnOn" type="button" value="ON/OFF" onclick="ON()"></td>
+            </tr>
+      
+            <tr>
+                <td><input class="btn" type="button" value="7" onclick="getVal('7')"></td>
+                <td><input class="btn" type="button" value="8" onclick="getVal('8')"></td>
+                <td><input class="btn" type="button" value="9" onclick="getVal('9')"></td>
+                <td><input class="btn" type="button" value="/" onclick="getVal('/')"></td>
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value="4" onclick="getVal('4')"></td>
+                <td><input class="btn" type="button" value="5" onclick="getVal('5')"></td>
+                <td><input class="btn" type="button" value="6" onclick="getVal('6')"></td>
+                <td><input class="btn" type="button" value="x" onclick="getVal('*')"></td>
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value="1" onclick="getVal('1')"></td>
+                <td><input class="btn" type="button" value="2" onclick="getVal('2')"></td>
+                <td><input class="btn" type="button" value="3" onclick="getVal('3')"></td>
+                <td><input class="btn" type="button" value="-" onclick="getVal('-')"></td>
+            </tr>
+            <tr>
+                <td><input class="btn" type="button" value="0" onclick="getVal('0')"></td>
+                <td><input class="btn" type="button" value="." onclick="getVal('.')"></td>
+                <td><input class="btn" type="button" value="=" onclick="getAnswer('=')"></td>
+                <td><input class="btn" type="button" value="+" onclick="getVal('+')"></td>
+            </tr>
+            <table class="history" id="historyBody">
+                
+            </table>
+            
+        </table> <br>
+        
+        
+    </div>
+    <script src="JS/index.js">
+
+    </script>
+</body>
+</html>

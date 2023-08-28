@@ -1,0 +1,102 @@
+.btn{
+    text-align: center;
+    padding: 5px;
+    height: 100%;
+    width: 50px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 5px;
+
+}
+
+.btnOn{
+    text-align: center;
+    padding: 8px;
+    font-size: 10px;
+    height: 100%;
+    width: 50px;
+    background-color: rgb(226, 42, 42);
+    border: 2px solid rgb(226, 42, 42);
+    border-radius: 5px;
+}
+
+.equation{
+    text-align: right;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 1px;
+    border-bottom: none;
+    height: 30px;
+    width: 210px;
+    padding: 5px;
+    outline: none;
+}
+
+.inputBox{
+    text-align: right;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 1px;
+    border-top: none;
+    height: 30px;
+    width: 210px;
+    padding: 5px;
+    outline: none;
+}
+
+#calcu{
+    border: 2px solid black;
+    background-color: black;
+    position: relative;
+    border-radius: 5px;
+}
+
+.history{
+    border: 2px solid black;
+    border-radius: 1px;
+    text-align: right;
+    font-size: 20px;
+    height: 257px;
+    width: 210px;
+    padding: 5px;
+    overflow: auto;
+    position: relative;
+    
+}
+
+#abs{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+.a{
+    border: 1px solid black;
+    border-radius: 1px;
+    text-align: right;
+    font-size: 20px;
+    height: 200px;
+    width: 210px;
+    padding: 5px;
+}
+
+.b{
+    border: 1px solid black;
+    border-radius: 1px;
+    text-align: right;
+    font-size: 20px;
+    height: 200px;
+    width: 210px;
+    padding: 5px;
+}
+
+.flex-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
